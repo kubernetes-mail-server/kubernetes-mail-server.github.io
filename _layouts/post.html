@@ -34,14 +34,8 @@ layout: default
 	</div>
 </div>
 
-
-
-
-
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
-        
-        
         <!-- Share -->
 		<div class="col-lg-2 pr-4 mb-4 col-md-12">
 			<div class="sticky-top sticky-top-offset text-center">
@@ -60,10 +54,8 @@ layout: default
 				</div>
 			</div>
 		</div>
-        
-        
+
 		<div class="col-md-12 col-lg-8">
-            
             <!-- Article -->
 			<article class="article-post">                
 			{{ content }}                
@@ -79,19 +71,19 @@ layout: default
 			</div>
  
              <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row mt-5">
-					<div class="col-md-2 align-self-center">
-                         {% if author.avatar %}
-                        <img class="rounded-circle" src="{{author.avatar}}" alt="{{author.name}}" width="90"/>
-                        {% endif %} 
-					</div>
-					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
-						{{ author.bio }}					
-					</div>
-				</div>				
-                {% endif %}
+			{% if page.author %}
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+					 {% if author.avatar %}
+					<img class="rounded-circle" src="{{author.avatar}}" alt="{{author.name}}" width="90"/>
+					{% endif %}
+				</div>
+				<div class="col-md-10">
+					<h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
+					{{ author.bio }}
+				</div>
+			</div>
+			{% endif %}
             
             <!-- Comments -->
             {% if page.comments != false %}
@@ -99,11 +91,8 @@ layout: default
             {% endif %}
             
 		</div>
-        
-        
 	</div>
 </div>
-
 
 <!-- Aletbar Prev/Next -->
 <div class="alertbar">
