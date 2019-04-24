@@ -21,11 +21,11 @@ plugins:
 authors:
     chris:
       name:           Chris Thomas
-      site:           https://antimatter-studios.com
+      site:           https://github.com/christhomas
       avatar:         https://s.gravatar.com/avatar/77249810e4f87e8a76d5f80f62cb869b?s=320
       bio:            "I'm a Software Engineer living in Berlin. I love all things Docker!"
       email:          chris.thomas@antimatter-studios.com
-      twitter:        https://linkedin.com/in/chrisalexthomas
+      linkedin:       https://linkedin.com/in/chrisalexthomas
 
 # Defaults
 defaults:
