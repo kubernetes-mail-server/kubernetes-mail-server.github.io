@@ -6,7 +6,6 @@ favicon: 'assets/images/favicon.ico'
 baseurl: '/'
 disqus: 'demowebsite'
 email: 'chris.thomas@antimatter-studios.com'
-mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
