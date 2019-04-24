@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Kubernetes Mail Server'
+description: 'A Dovecot/Postfix/OpenDKIM enabled Mail Server which runs on a Kubernetes Cluster'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
+baseurl: '/'
 disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+email: 'chris.thomas@antimatter-studios.com'
+mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
