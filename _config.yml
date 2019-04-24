@@ -19,22 +19,14 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    chris:
+      name:           Chris Thomas
+      site:           https://antimatter-studios.com
+      avatar:         https://s.gravatar.com/avatar/77249810e4f87e8a76d5f80f62cb869b?s=320
+      bio:            "I'm a Software Engineer living in Berlin. I love all things Docker!"
+      email:          chris.thomas@antimatter-studios.com
+      twitter:        https://linkedin.com/in/chrisalexthomas
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
 # Defaults
 defaults:
 
@@ -58,8 +50,6 @@ highlighter: rouge
 
 # Paginate
 paginate: 10
-
-
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
